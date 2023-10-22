@@ -7,7 +7,7 @@ import Property from '../components/Property';
 import SearchFilters from '../components/SearchFilters';
 import { baseUrl,fetchApi } from '../utils/fetchData.js';
 
-export default function search({properties}) {
+export default function Search({properties}) {
   const [searchFilters, setSearchFilters] = useState(false);
   const router = useRouter();
 
